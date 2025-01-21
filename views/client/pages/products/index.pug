@@ -1,0 +1,20 @@
+extends ../../layouts/default.pug
+include ../../mixins/mixin.pug
+
+block main
+    .container.my-3 
+        .row
+            .col-12
+                +box-head("Danh sách sản phẩm ")
+
+        .row
+            each item in products
+                .col-3.mb-3
+                    .card(style="width: 18rem;")
+                        img.card-img-top(src=item.thumbnail alt=item.thumbnail)
+                        .card-body
+                            h5.card-title.text-center #{item.title}
+                            p.card-text.text-muted.text-center.old-price #{item.price} đ
+                            p.card-text.text-danger.text-center.new-price #{item.priceNew} đ
+                            p.card-text.text-success.text-center.discount -#{item.discount}%
+

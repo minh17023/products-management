@@ -1,0 +1,88 @@
+header {
+    background-color: #dc3545; /* Bootstrap danger color */
+}
+  
+.logo span {
+    font-size: 1.5rem; /* Tăng kích thước chữ logo */
+}
+  
+.logo .small {
+    font-size: 0.8rem; /* Kích thước tagline nhỏ hơn */
+}
+  
+.nav-link {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    font-size: 1rem; /* Cỡ chữ menu */
+}
+  
+.search-bar input {
+    width: 200px; /* Độ rộng input tìm kiếm */
+}
+  
+.auth-links a {
+    font-weight: bold; /* Chữ đậm hơn */
+    text-decoration: none;
+}
+  
+.auth-links a:hover {
+    text-decoration: underline; /* Hiệu ứng khi hover */
+}
+  
+footer {
+    background-color: #dc3545; /* Bootstrap danger color */
+}
+  
+footer h5 {
+    font-weight: bold;
+}
+  
+footer p, footer a {
+    font-size: 0.9rem; /* Cỡ chữ nhỏ */
+}
+  
+footer a:hover {
+    text-decoration: underline; /* Hiệu ứng khi hover */
+}
+  
+footer hr {
+    border-color: rgba(255, 255, 255, 0.5); /* Đường gạch ngang mờ */
+}
+  
+footer .fa-2x {
+    font-size: 1.5rem; /* Kích thước icon */
+}
+
+/* Sản phẩm */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.card-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+  
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.old-price {
+    text-decoration: line-through; /* Gạch ngang giá cũ */
+    font-size: 1rem;
+}
+  
+.new-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  
+.discount {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #28a745; /* Màu xanh lá để nhấn mạnh giảm giá */
+}
+    
